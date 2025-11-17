@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.daws86s.fun
-REDIS_HOST: redis.daws86s.fun
-CATALOGUE_HOST: catalogue.daws86s.fun
-CART_HOST: cart.daws86s.fun
-USER_HOST: user.daws86s.fun
-RABBITMQ_HOST: rabbitmq.daws86s.fun
-MYSQL_HOST: mysql.daws86s.fun
-SHIPPING_HOST: shipping.daws86s.fun
-PAYMENT_HOST: payment.daws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.fineshit.shop #mongodb-dev.fineshit.shop
+REDIS_HOST: redis-{{ env }}.fineshit.shop
+CATALOGUE_HOST: catalogue-{{ env }}.fineshit.shop
+CART_HOST: cart-{{ env }}.fineshit.shop
+USER_HOST: user-{{ env }}.fineshit.shop
+RABBITMQ_HOST: rabbitmq-{{ env }}.fineshit.shop
+MYSQL_HOST: mysql-{{ env }}.fineshit.shop
+SHIPPING_HOST: shipping-{{ env }}.fineshit.shop
+PAYMENT_HOST: payment-{{ env }}.fineshit.shop
