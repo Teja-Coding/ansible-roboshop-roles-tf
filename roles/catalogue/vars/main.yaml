@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb-{{ env }}.finesh.shop 
+# MONGODB_HOST: mongodb-{{ env }}.finesh.shop 
